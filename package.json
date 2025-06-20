@@ -1,0 +1,20 @@
+{
+  "name": "grow-a-garden-api",
+  "version": "1.0.0",
+  "description": "GAG API for Grow A Garden game data",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "keywords": ["api", "grow-a-garden", "game", "express", "vercel"],
+  "author": "/res",
+  "license": "MIT"
+}
